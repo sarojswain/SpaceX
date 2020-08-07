@@ -2,11 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
-# About SpaceX
+# About the project (SpaceX)
 
-This codebase was created to demonstrate a fully fledged application built with Angular that interacts with SpaceX API 
-and fetches all required information and displays in UI. This application has followed Mobile first design approach and
-fully responsive accross Mobile, Tab & Desktop. Also User should be able to Filter the results with help of provided Filters.
+- This codebase was created to demonstrate a fully fledged application built with Angular that interacts with SpaceX API and fetches all required information and displays in UI.
+- Server-side rendering functionality has implemented using Angular Universal, which helps for SEO & Improve performance on mobile and low-powered devices.
+- This application has followed Mobile first design approach and fully responsive accross Mobile, Tab & Desktop.
+- User able to Filter the results with help of provided Filters.
+- Unit test cases has written to improve the quality of the code & to detect bugs at an early stage.
+
+# Live Demo
+
+https://spacex-angular.herokuapp.com/
 
 # Tech Stack used
 
@@ -14,16 +20,47 @@ Development - Angular 10, TypeScript, JavaScript (ES6), Html5, Css3, SCSS, Flexb
 
 Unit tests - Jasmine, Karma
 
-Hosting - Github pages
+Hosting - Heroku
 
 Development Ide - VS code
 
 
+## Code coverage
+Have written development test cases using Jasmine & Karma frameworks & mantained code coverage above 80%.
 
-# Live Demo
+[<img src="https://raw.githubusercontent.com/sarojswain/Flexbox/master/snapshots/Unit%20Tests%20-%20Code%20Coverage.PNG" align="left" height="300px" width="100%" alt="code coverage snapshot" />]
 
-https://sarojswain.github.io/Spacex-Angular/
+## Server-side rendering
+landing page is rendered from server side (Heroku).
 
+<div align="center">
+  <h2>Mobile View</h2>
+  <img src="https://raw.githubusercontent.com/sarojswain/Flexbox/master/snapshots/server-side%20rendering.PNG" >
+</div>
+
+
+## Application snapshots
+
+<div align="center">
+  <h2>Mobile View</h2>
+  <img src="https://raw.githubusercontent.com/sarojswain/Flexbox/master/snapshots/Mobile%20View%20-%201.PNG" >
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sarojswain/Flexbox/master/snapshots/Mobile%20View%20-%202.PNG" >
+</div>
+
+
+<div align="center">
+ <h2>Tablet View</h2>
+ <img src="https://raw.githubusercontent.com/sarojswain/Flexbox/master/snapshots/Tablet-View.PNG" >
+</div>
+
+
+<div align="center">
+ <h2>Desktop View</h2>
+ <img src="https://raw.githubusercontent.com/sarojswain/Flexbox/master/snapshots/Desktop-View.PNG" >
+</div>
 
 
 ## Development server

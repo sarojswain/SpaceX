@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
-# About the project (SpaceX)
+## About the project
 
 - This codebase was created to demonstrate a fully fledged application built with Angular that interacts with SpaceX API and fetches all required information and displays in UI.
 - Server-side rendering functionality has implemented using Angular Universal, which helps for SEO & Improve performance on mobile and low-powered devices.
@@ -10,11 +10,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - User able to Filter the results with help of provided Filters.
 - Unit test cases has written to improve the quality of the code & to detect bugs at an early stage.
 
-# Live Demo
+## SpaceX Live Demo
 
 https://spacex-angular.herokuapp.com/
 
-# Tech Stack used
+## Tech Stack used
 
 Development - Angular 10, TypeScript, JavaScript (ES6), Html5, Css3, SCSS, Flexbox, Css-grid
 
@@ -34,7 +34,6 @@ Have written development test cases using Jasmine & Karma frameworks & mantained
 landing page is rendered from server side (Heroku).
 
 <div align="center">
-  <h2>Mobile View</h2>
   <img src="https://raw.githubusercontent.com/sarojswain/Flexbox/master/snapshots/server-side%20rendering.PNG" >
 </div>
 
